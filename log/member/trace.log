@@ -1,0 +1,80 @@
+2024-07-14 00:03:29.378 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+2024-07-14 00:03:29.383 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2024-07-14 00:04:55.737 INFO  com.example.member.config.MemberApplication       :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.5 with PID 27900 (E:\面试\项目\b12306\member\target\classes started by zxh in E:\面试\项目\b12306)
+2024-07-14 00:04:55.739 INFO  com.example.member.config.MemberApplication       :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-14 00:04:55.788 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-14 00:04:55.789 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-14 00:04:56.302 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=77b960f9-1ae6-3b55-8916-f0b9b5672aa7
+2024-07-14 00:04:56.764 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-07-14 00:04:56.771 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-14 00:04:56.773 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-14 00:04:56.774 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-14 00:04:56.836 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-14 00:04:56.836 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1047 ms
+2024-07-14 00:04:57.293 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-14 00:04:57.709 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-14 00:04:57.722 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-07-14 00:04:58.101 INFO  com.example.member.config.MemberApplication       :56   [32m                  [0;39m Started MemberApplication in 3.135 seconds (process running for 3.939)
+2024-07-14 00:04:58.103 INFO  com.example.member.config.MemberApplication       :21   [32m                  [0;39m 启动成功！！
+2024-07-14 00:04:58.104 INFO  com.example.member.config.MemberApplication       :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-07-14 00:04:59.084 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-14 00:04:59.085 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-14 00:04:59.086 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2024-07-14 00:04:59.120 INFO  com.example.member.aspect.LogAspect               :54   [32m1720886699117igh  [0;39m ------------- 开始 -------------
+2024-07-14 00:04:59.121 INFO  com.example.member.aspect.LogAspect               :55   [32m1720886699117igh  [0;39m 请求地址: http://localhost:8001/member/hello GET
+2024-07-14 00:04:59.121 INFO  com.example.member.aspect.LogAspect               :56   [32m1720886699117igh  [0;39m 类名方法: com.example.member.controller.TestController.hello
+2024-07-14 00:04:59.121 INFO  com.example.member.aspect.LogAspect               :57   [32m1720886699117igh  [0;39m 远程地址: 127.0.0.1
+2024-07-14 00:04:59.167 INFO  com.example.member.aspect.LogAspect               :78   [32m1720886699117igh  [0;39m 请求参数: []
+2024-07-14 00:04:59.168 INFO  com.example.member.aspect.LogAspect               :90   [32m1720886699117igh  [0;39m 返回结果: "Hello, World"
+2024-07-14 00:04:59.168 INFO  com.example.member.aspect.LogAspect               :91   [32m1720886699117igh  [0;39m ------------- 结束 耗时：51 ms -------------
+2024-07-14 00:11:14.787 INFO  com.example.member.aspect.LogAspect               :54   [32m17208870747875z4  [0;39m ------------- 开始 -------------
+2024-07-14 00:11:14.787 INFO  com.example.member.aspect.LogAspect               :55   [32m17208870747875z4  [0;39m 请求地址: http://localhost:8001/member/hello GET
+2024-07-14 00:11:14.787 INFO  com.example.member.aspect.LogAspect               :56   [32m17208870747875z4  [0;39m 类名方法: com.example.member.controller.TestController.hello
+2024-07-14 00:11:14.788 INFO  com.example.member.aspect.LogAspect               :57   [32m17208870747875z4  [0;39m 远程地址: 127.0.0.1
+2024-07-14 00:11:14.788 INFO  com.example.member.aspect.LogAspect               :78   [32m17208870747875z4  [0;39m 请求参数: []
+2024-07-14 00:11:14.788 INFO  com.example.member.aspect.LogAspect               :90   [32m17208870747875z4  [0;39m 返回结果: "Hello, World"
+2024-07-14 00:11:14.788 INFO  com.example.member.aspect.LogAspect               :91   [32m17208870747875z4  [0;39m ------------- 结束 耗时：1 ms -------------
+2024-07-14 00:43:14.223 INFO  com.example.member.config.MemberApplication       :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.5 with PID 10528 (E:\面试\项目\b12306\member\target\classes started by zxh in E:\面试\项目\b12306)
+2024-07-14 00:43:14.227 INFO  com.example.member.config.MemberApplication       :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-14 00:43:14.268 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-14 00:43:14.268 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-14 00:43:14.833 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ca03d2d4-9118-34ea-bc0e-22c7e3fde1a8
+2024-07-14 00:43:15.256 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-07-14 00:43:15.268 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-14 00:43:15.270 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-14 00:43:15.270 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-14 00:43:15.341 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-14 00:43:15.341 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1072 ms
+2024-07-14 00:43:15.631 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-14 00:43:16.072 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-14 00:43:16.087 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-07-14 00:43:16.479 INFO  com.example.member.config.MemberApplication       :56   [32m                  [0;39m Started MemberApplication in 3.112 seconds (process running for 3.889)
+2024-07-14 00:43:16.481 INFO  com.example.member.config.MemberApplication       :21   [32m                  [0;39m 启动成功！！
+2024-07-14 00:43:16.482 INFO  com.example.member.config.MemberApplication       :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-07-14 00:49:51.850 INFO  com.example.member.config.MemberApplication       :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.5 with PID 23664 (E:\面试\项目\b12306\member\target\classes started by zxh in E:\面试\项目\b12306)
+2024-07-14 00:49:51.852 INFO  com.example.member.config.MemberApplication       :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-14 00:49:51.891 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-14 00:49:51.892 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-14 00:49:52.420 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b3be709f-38e3-3216-a30e-cb50e7f5b506
+2024-07-14 00:49:52.935 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-07-14 00:49:52.942 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-14 00:49:52.943 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-14 00:49:52.944 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-14 00:49:53.003 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-14 00:49:53.004 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1112 ms
+2024-07-14 00:49:53.460 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-14 00:49:53.909 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-14 00:49:53.924 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-07-14 00:49:54.319 INFO  com.example.member.config.MemberApplication       :56   [32m                  [0;39m Started MemberApplication in 3.274 seconds (process running for 3.995)
+2024-07-14 00:49:54.321 INFO  com.example.member.config.MemberApplication       :21   [32m                  [0;39m 启动成功！！
+2024-07-14 00:49:54.321 INFO  com.example.member.config.MemberApplication       :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-07-14 00:49:57.028 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-14 00:49:57.028 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-14 00:49:57.029 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-14 00:49:57.068 INFO  com.example.common.aspect.LogAspect               :54   [32m1720889397061pz1  [0;39m ------------- 开始 -------------
+2024-07-14 00:49:57.069 INFO  com.example.common.aspect.LogAspect               :55   [32m1720889397061pz1  [0;39m 请求地址: http://localhost:8001/member/hello GET
+2024-07-14 00:49:57.069 INFO  com.example.common.aspect.LogAspect               :56   [32m1720889397061pz1  [0;39m 类名方法: com.example.member.controller.TestController.hello
+2024-07-14 00:49:57.070 INFO  com.example.common.aspect.LogAspect               :57   [32m1720889397061pz1  [0;39m 远程地址: 127.0.0.1
+2024-07-14 00:49:57.101 INFO  com.example.common.aspect.LogAspect               :78   [32m1720889397061pz1  [0;39m 请求参数: []
+2024-07-14 00:49:57.102 INFO  com.example.common.aspect.LogAspect               :90   [32m1720889397061pz1  [0;39m 返回结果: "Hello, World"
+2024-07-14 00:49:57.102 INFO  com.example.common.aspect.LogAspect               :91   [32m1720889397061pz1  [0;39m ------------- 结束 耗时：41 ms -------------

@@ -1,0 +1,94 @@
+2024-07-13 23:38:38.668 INFO  com.example.member.config.MemberApplication       :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.5 with PID 16060 (E:\面试\项目\b12306\member\target\classes started by zxh in E:\面试\项目\b12306)
+2024-07-13 23:38:38.671 INFO  com.example.member.config.MemberApplication       :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:38:38.706 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:38:38.706 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:38:39.202 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=e9950539-510a-3404-8655-f1e060b2a20d
+2024-07-13 23:38:39.514 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-07-13 23:38:39.523 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:38:39.525 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-13 23:38:39.525 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:38:39.592 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-13 23:38:39.592 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 875 ms
+2024-07-13 23:38:39.875 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-13 23:38:40.324 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:38:40.338 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-07-13 23:38:40.737 INFO  com.example.member.config.MemberApplication       :56   [32m                  [0;39m Started MemberApplication in 2.918 seconds (process running for 3.692)
+2024-07-13 23:38:40.740 INFO  com.example.member.config.MemberApplication       :19   [32m                  [0;39m 启动成功！！
+2024-07-13 23:38:40.740 INFO  com.example.member.config.MemberApplication       :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-07-13 23:41:28.940 INFO  com.example.member.config.MemberApplication       :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.5 with PID 4332 (E:\面试\项目\b12306\member\target\classes started by zxh in E:\面试\项目\b12306)
+2024-07-13 23:41:28.943 INFO  com.example.member.config.MemberApplication       :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:41:28.978 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:41:28.980 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:41:29.480 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=73c499a3-5571-3640-8898-a222d467ce9b
+2024-07-13 23:41:29.785 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-07-13 23:41:29.792 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:41:29.793 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-13 23:41:29.795 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:41:29.857 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-13 23:41:29.857 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 876 ms
+2024-07-13 23:41:30.107 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-13 23:41:30.564 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:41:30.580 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-07-13 23:41:30.993 INFO  com.example.member.config.MemberApplication       :56   [32m                  [0;39m Started MemberApplication in 2.86 seconds (process running for 3.53)
+2024-07-13 23:41:30.996 INFO  com.example.member.config.MemberApplication       :19   [32m                  [0;39m 启动成功！！
+2024-07-13 23:41:30.996 INFO  com.example.member.config.MemberApplication       :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-07-13 23:41:41.470 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-13 23:41:41.471 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-13 23:41:41.473 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-13 23:48:55.385 INFO  com.example.member.config.MemberApplication       :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.5 with PID 27340 (E:\面试\项目\b12306\member\target\classes started by zxh in E:\面试\项目\b12306)
+2024-07-13 23:48:55.388 INFO  com.example.member.config.MemberApplication       :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:48:55.425 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:48:55.426 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:48:55.917 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ca03d2d4-9118-34ea-bc0e-22c7e3fde1a8
+2024-07-13 23:48:56.236 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-07-13 23:48:56.247 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:48:56.248 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-13 23:48:56.249 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:48:56.309 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-13 23:48:56.310 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 884 ms
+2024-07-13 23:48:56.552 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-13 23:48:56.988 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:48:57.003 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-07-13 23:48:57.416 INFO  com.example.member.config.MemberApplication       :56   [32m                  [0;39m Started MemberApplication in 2.852 seconds (process running for 3.522)
+2024-07-13 23:48:57.418 INFO  com.example.member.config.MemberApplication       :19   [32m                  [0;39m 启动成功！！
+2024-07-13 23:48:57.418 INFO  com.example.member.config.MemberApplication       :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-07-13 23:54:48.501 INFO  com.example.member.config.MemberApplication       :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.5 with PID 16312 (E:\面试\项目\b12306\member\target\classes started by zxh in E:\面试\项目\b12306)
+2024-07-13 23:54:48.503 INFO  com.example.member.config.MemberApplication       :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:54:48.542 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:54:48.542 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:54:49.072 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=77b960f9-1ae6-3b55-8916-f0b9b5672aa7
+2024-07-13 23:54:49.557 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-07-13 23:54:49.565 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:54:49.566 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-13 23:54:49.566 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:54:49.628 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-13 23:54:49.628 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1085 ms
+2024-07-13 23:54:50.068 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-13 23:54:50.526 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:54:50.542 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-07-13 23:54:50.927 INFO  com.example.member.config.MemberApplication       :56   [32m                  [0;39m Started MemberApplication in 3.246 seconds (process running for 3.939)
+2024-07-13 23:54:50.930 INFO  com.example.member.config.MemberApplication       :19   [32m                  [0;39m 启动成功！！
+2024-07-13 23:54:50.930 INFO  com.example.member.config.MemberApplication       :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-07-13 23:54:53.896 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-13 23:54:53.897 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-13 23:54:53.898 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-13 23:57:50.614 INFO  com.example.member.config.MemberApplication       :50   [32m                  [0;39m Starting MemberApplication using Java 17.0.5 with PID 10632 (E:\面试\项目\b12306\member\target\classes started by zxh in E:\面试\项目\b12306)
+2024-07-13 23:57:50.617 INFO  com.example.member.config.MemberApplication       :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:57:50.655 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:57:50.655 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :252  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:57:51.135 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=77b960f9-1ae6-3b55-8916-f0b9b5672aa7
+2024-07-13 23:57:51.598 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111  [32m                  [0;39m Tomcat initialized with port 8001 (http)
+2024-07-13 23:57:51.606 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:57:51.607 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-13 23:57:51.607 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:57:51.671 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-13 23:57:51.671 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1015 ms
+2024-07-13 23:57:52.082 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-13 23:57:52.523 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-13 23:57:52.538 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243  [32m                  [0;39m Tomcat started on port 8001 (http) with context path '/member'
+2024-07-13 23:57:52.964 INFO  com.example.member.config.MemberApplication       :56   [32m                  [0;39m Started MemberApplication in 3.189 seconds (process running for 3.823)
+2024-07-13 23:57:52.967 INFO  com.example.member.config.MemberApplication       :21   [32m                  [0;39m 启动成功！！
+2024-07-13 23:57:52.968 INFO  com.example.member.config.MemberApplication       :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-07-13 23:58:23.242 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-13 23:58:23.242 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-13 23:58:23.243 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
